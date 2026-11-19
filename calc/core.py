@@ -4,6 +4,7 @@ from calc.ops.basic import add, divide, multiply, subtract
 from calc.ops.percentage import percentage
 from calc.ops.maximum import maximum
 from calc.ops.floor_divide import floor_divide
+from calc.ops.hypotenuse import hypotenuse
 
 # Asocia la etiqueta de cada botón con la función que la implementa.
 # La interfaz dibuja un botón por entrada, en este mismo orden.
@@ -15,6 +16,7 @@ OPERATIONS = {
     "%": percentage,
     "max": maximum,
     "//": floor_divide,
+    "hyp": hypotenuse,
 }
 
 
