@@ -12,6 +12,14 @@ class TestCalculate(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(calculate(8, "/", 2), 4)
+    
+    def test_max(self):
+        self.assertEqual(calculate(8, "max", 2), 8)
+        self.assertEqual(calculate(2, "max", 8), 8)
+
+    def test_min(self):
+        self.assertEqual(calculate(8, "min", 2), 2)
+        self.assertEqual(calculate(2, "min", 8), 2)
 
     def test_unknown_operation(self):
         with self.assertRaises(ValueError):
