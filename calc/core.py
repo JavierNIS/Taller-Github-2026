@@ -1,6 +1,6 @@
 """Lógica de la calculadora. Este módulo nunca debe importar tkinter."""
 
-from calc.ops.basic import add, divide, multiply, subtract
+from calc.ops.basic import add, divide, multiply, subtract, max, min
 
 # Asocia la etiqueta de cada botón con la función que la implementa.
 # La interfaz dibuja un botón por entrada, en este mismo orden.
@@ -9,6 +9,8 @@ OPERATIONS = {
     "-": subtract,
     "*": multiply,
     "/": divide,
+    "max": max,
+    "min": min,
 }
 
 
