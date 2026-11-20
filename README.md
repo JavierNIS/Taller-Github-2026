@@ -1,5 +1,14 @@
 # Calculadora - ETSIIT Tech Club
 
+```
+ _._     _,-'""`-._
+(,-.`._,'(       |\`-/|
+    `-.-' \ )-`( , o o)
+          `-    \`_`"'-
+``` 
+
+Javi buapetón
+
 Proyecto de práctica del taller **Git para expertos**. 
 Es una calculadora en Python con interfaz gráfica (tkinter) y tests. 
 No hace falta saber Python: lo que vamos a practicar es git.
